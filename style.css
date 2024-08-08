@@ -1,0 +1,98 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+body {  
+    font-family: Arial, sans-serif;  
+    background-color: #f0f0f0;  
+   }  
+  .container {  
+    max-width: 400px;  
+    margin: 40px auto;  
+    padding: 20px;  
+    background-color: #fff;  
+    border: 1px solid #ddd;  
+    border-radius: 10px;  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);  
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;  
+   }  
+  .header {  
+    display: flex;  
+    justify-content: space-between;  
+    align-items: center;  
+    margin-bottom: 20px;  
+   }  
+   h1 {  
+    font-size: 24px;  
+    font-weight: bold;  
+    margin: 0;  
+   }  
+  .input-group {  
+    display: flex;  
+    align-items: center;  
+    margin-bottom: 20px;  
+   }
+   .selectors{
+    margin-right: 20px;
+   }
+   #timeOptions {  
+    background-color: #ffffff;
+    padding: 15px 5px;
+    font-size: 18px;  
+    margin-bottom: 10px; 
+    border-color: #ddd; 
+  }    
+   #time-input {  
+    width: 200px;  
+    height: 30px;  
+    font-size: 18px;  
+    padding: 15px;  
+    border: 1px solid #ccc;  
+    border-radius: 5px;  
+   }  
+  .button-group {  
+    display: flex;  
+    justify-content: space-between;  
+    margin-bottom: 20px;  
+   }  
+   button {  
+    width: 100px; 
+    margin: 0 10px;  
+    padding: 10px;
+    font-size: 18px;  
+    padding: 10px;  
+    border: none;  
+    border-radius: 5px;  
+    background-color: #4CAF50;  
+    color: #fff;  
+    cursor: pointer;  
+   }  
+   button:hover {  
+    background-color: #3e8e41;  
+    transition: all .3s ease-in;
+   }  
+   #countdown-display {  
+    font-size: 48px;  
+    font-weight: bold;  
+    color: #FFFFFF;  
+    text-align: center;  
+    margin-bottom: 20px;  
+   }  
+  .circle {  
+    width: 200px;  
+    height: 200px;  
+    border-radius: 50%;  
+    border: 10px solid #a3a2a2;  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+    font-size: 48px;  
+    font-weight: bold;  
+    margin: 20px auto;
+   }  
+  .running {  
+    border-color: #666;  
+   }  
+  .urgent {  
+    border-color: red;  
+   } 
+  

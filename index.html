@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Analog Countdown Timer</title>
+<link rel='stylesheet'
+            href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css'
+            integrity='sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=='
+            crossorigin='anonymous' />
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">  
+        <div class="header">  
+            <h1>Countdown Timer</h1>  
+        </div>  
+        <div class="input-group">
+            <div class="selectors">
+                <select id="timeOptions">  
+                    <option value="60">1 minute</option>  
+                    <option value="300">5 minutes</option>  
+                    <option value="600">10 minutes</option>  
+                    <option value="900">15 minutes</option>  
+                    <option value="1200">20 minutes</option>  
+                    <option value="custom">Custom</option>  
+                   </select> 
+            </div> 
+            <input id="time-input" type="number" value="" placeholder="Enter Time In Secound"/>
+        </div>  
+        <div class="button-group">  
+            <button id="start-stop-btn">Start</button>  
+            <button id="reset-btn">Reset</button>  
+            <button id="play-pause-btn">Play</button>  
+        </div>  
+        <audio id="audio" src="Ring.mp3"></audio>  
+            <div id="countdown-display" class="circle">00:00:00</div>  
+       </div>    
+<script src="script.js"></script>
+</body>
+</html>
+
+
